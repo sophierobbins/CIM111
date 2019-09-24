@@ -1,0 +1,103 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+
+        body{
+          background-color: aliceblue;
+          font-family: 'PT Sans Narrow', sans-serif;
+          padding: 5em;
+        }
+
+        section{
+          background-color: aliceblue;
+
+        }
+
+        img{filter: saturate(110%);
+
+        }
+
+        a{
+          color: Teal;
+          text-decoration: none;
+        }
+
+        a:visited{
+          color: DarkTurquoise;
+        }
+
+        a:hover{
+          background-color: gold;
+          font-style: italic;
+        }
+
+        address{
+           color: midnightblue
+        }
+
+        h1{
+        color: Goldenrod;
+        font-family: 'PT Sans Narrow', sans-serif;
+        border: solid;
+        border-color: Goldenrod;
+        text-shadow: 1px 1px 2px Gray;
+        }
+
+        h2{
+          color: Goldenrod;
+        }
+
+        strong {
+          color: Gray;
+        }
+
+        li{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 15px
+
+        }
+
+        #centerName{
+          text-align: center;
+        }
+
+        #bio{
+          text-decoration: underline;
+        }
+
+        #underline{
+          text-decoration: underline;
+        }
+
+        #triangle{
+          text-emphasis-style: triangle;
+        }
+
+        #Proficiency{
+          font-style: italic;
+        }
+
+        .bolder{
+
+          font-weight: bolder;
+          font-size: 15px;
+        }
+
+        .larger{
+
+          font-weight: bolder;
+          font-size: 18px;
+          color: DarkTurquoise
+
+        }
+
+        .important{
+
+          font-size: 15px;
+          color: red
+
+        }
+        .hobbies{
+          list-style: circle;
+
+        }
