@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Interaction</title>
+
+    <style media="screen">
+      img{
+        width: 300px
+      }
+
+      </style>
+
+  </head>
+  <body>
+
+    <h1 id="changebackground">Click here to change background color</h1>
+    <h1 id="changeorange">Click here to change background color to orange</h1>
+
+    <ul>
+      <li id="item1" class="item">item 1</li>
+      <li id="item2" class="item">item 2</li>
+      <li id="item3" class="item">item 3</li>
+    </ul>
+
+    <p id="changeText"></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //all code goes in here
+
+        $("#changebackground").click(function(){
+
+          $("body").css("background-color","purple");
+
+          });//end of changebackground Click
+
+        $("#changeorange").click(function(){
+          $("body").css("background-color", "orange");
+
+        });//end of changeorange
+
+        $("#item1").mouseenter(function(){
+
+          $("#changeText").html("hello there!");
+
+        });//end of item1 mouseenter
+
+        $("#item2").mouseenter(function(){
+          $("#changeText").html("<strong>This is Bold</strong>");
+
+        });//end of item2
+
+        $("#item3").mouseenter(function(){
+
+          $("#changeText").html("<img src='https://farm5.staticflickr.com/4024/4577136596_21e0bac2a9.jpg' alt='Image 1'>");
+        });
+
+        $("#item1").mouseleave(function(){
+
+          $("#changeText").html("");
+        });
+
+        $(".item").mouseleave(function(){
+          $("#changeText").html("");
+        });
+
+      });//end of document ready
+    </script>
+
+
+  </body>
+</html>

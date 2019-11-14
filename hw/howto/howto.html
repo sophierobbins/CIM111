@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> How to Make Trader Joe's Blondies </title>
+  </head>
+  <style>
+
+  body{
+    background-color: SandyBrown;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 10em;
+  }
+
+  span.tip {
+
+    /* Required */
+    position: absolute;
+    z-index: 2;
+    display: none;
+
+    /* Optional */
+    font-size: 15px;
+    max-width: 150px;
+    height: auto;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #666;
+    background: #FD0;
+}
+
+  </style>
+  <body>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- <script type="text/Javascript" src="js/jquery.js"> -->
+      <script src="jQuery.mousetip.js"></script>
+
+      </script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+
+          $('h1').mousetip('.tip');
+
+
+          $("#title").html("How To Make Trader Joe's Blondies");
+            $("#title").css("color","grey");
+
+          $("#section1toggle").click(function(){
+          //  $("#section1").toggle(2000);
+            $("#section1").slideToggle(2000);
+          });
+
+          $("#section2toggle").click(function(){
+          //  $("#section1").toggle(2000);
+            $("#section2").slideToggle(2000);
+          });
+
+          $("#section3toggle").click(function(){
+          //  $("#section1").toggle(2000);
+            $("#section3").slideToggle(2000);
+          });
+
+          $("#section4toggle").click(function(){
+          //  $("#section1").toggle(2000);
+            $("#section4").slideToggle(2000);
+          });
+
+          $("#section5toggle").click(function(){
+          //  $("#section1").toggle(2000);
+            $("#section5").slideToggle(2000);
+          });
+
+          $("#section6mouse").mouseenter(function(){
+            $("#section6").show();
+
+          });
+          $("#section6mouse").mouseleave(function(){
+            $("#section6").hide();
+
+          });
+
+          $("#ingredientsmouse").mouseenter(function(){
+            $("#ingredients").show();
+
+          });
+
+          $("#ingredientsmouse").mouseleave(function(){
+            $("#ingredients").hide();
+
+          });
+
+        });
+
+      </script>
+
+      <h1 id="title"></h1>
+
+      <p>I really wanted to make Trader Joe's pumpkin oatmeal cookies for this assignment, but upon entering Trader Joe's I was unable to locate them. After speaking with a very kind staff member I was informed that they are no longer selling the pumpkin oatmeal cookies because they were only a seasonal item. You can probably assume I was saddened by this news, espeically due to the fact that it is merely the beginning of October and pumpkin is very much still in season. However, I found a reasonable substitute and we are going to give it a shot.   </p>
+
+      <h2 id="ingredientsmouse">mouseover to show ingredients</h2>
+      <section id="ingredients">
+
+      <h2>Ingredients</h2>
+      <ul>
+        <li>Trader Joe's Blondie Bar Baking Mix</li>
+        <li>1 Egg</li>
+        <li>1 Stick of butter</li>
+        <li>Brownie Pan</li>
+        <li>Extra chocolate chips if you're feeling dangerous</li>
+
+      </ul>
+
+      </section>
+
+
+      <h1 id="section1toggle">Step 1<span class="tip">Go shopping!</span></h1>
+
+      <section id="section1">
+        <p>The first step of making Trader Joe's Blondie Bars is in fact going to the motherland herslef: TJ's and securing the bag (or box). This step is crucial because TJs can be a very distracting place, and it is crucial that you stay focused. For example, I am a professional, and yet I was still distracted by the cheese section for about 10 minutes. Also, make sure you talk to the employees there, as they are all overly kind and will probably improve whatever kind of day you are having that led you to baking blondies.  </p>
+      </section>
+
+      <h1 id="section2toggle">Step 2<span class="tip">Prepare!</span></h1>
+
+      <section id="section2">
+        <p>The second step is when you actually begin preparing the blondie's themslves. First and foremost, preheat the oven to 350 degrees. Then take an 8x8 brownie pan and use a little bit of butter to grase the edges of it. You can also line the pan with parchment paper if you prefer.</p>
+      </section>
+
+      <h1 id="section3toggle">Step 3<span class="tip">Start mixing!</span></h1>
+
+      <section id="section3">
+        <p>Next, you are going to melt your stick of butter in the microwave. Then, in a large mixing bowl, whisk the melted butter and the egg together. Slowly begin to add in the Trader Joe's Blondie Bar Baking Mix and fold it into the butter and egg mixture. After the mix is fully combined, this is when you may mix in some extra chocolate chips if you like to live on the wild side of life.</p>
+      </section>
+
+      <h1 id="section4toggle">Step 4<span class="tip">Almost there!</span></h1>
+
+      <section id="section4">
+        <p>Pour the batter evenly into the pan and place a couple more chocolate chips on top for ~garnishing~ Bake until they are golden brown, this should take about 30 minutes. Remove them from the ove, and let them cool completely before cutting them. </p>
+      </section>
+
+      <h1 id="section5toggle">Step 5<span class="tip">Enjoy!!</span></h1>
+
+      <section id="section5">
+        <p>After you slice your blondies, plate them accordingly as presentation is everything. Make sure to share your blondies with others to brighten their day. </p>
+      </section>
+
+      <h2 id="section6mouse">mouseover to show photos</h2>
+
+      <section id="section6" >
+
+      <img src="images/IMG_1.jpeg"alt="Puppy image"height="200">
+      <img src="images/IMG_2.jpeg"alt="Puppy image"height="200">
+      <img src="images/IMG_3.jpeg"alt="Puppy image"height="200">
+      <img src="images/IMG_4.jpeg"alt="Puppy image"height="200">
+      <img src="images/IMG_5.jpeg"alt="Puppy image"height="200">
+
+        </section>
+
+
+  </body>
+</html>
