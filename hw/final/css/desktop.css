@@ -64,6 +64,9 @@ align-items: start
 
 }
 
+#info img{
+ width: 300px;  
+}
 #ewc{
   display: grid;
   grid-template-areas: "col1 col2";

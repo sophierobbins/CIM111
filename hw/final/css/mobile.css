@@ -23,13 +23,22 @@ nav ul li{
 
   width: 380px;
   display: block;
-  image: 200px;
+  /* image: 200px; */
 
 
 }
 
 #ewc1 img{
-  width: 150px
+  width: 150px;
   display: block;
 
+}
+
+#grid1{
+  display: block;
+  width: 380px;
+}
+
+#info img{
+  width: 200px;
 }
