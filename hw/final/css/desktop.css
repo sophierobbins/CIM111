@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+header{
+  margin-top: -10px
+}
+main{
+  background-color: Azure;
+  text-align: left;
+  font-family: 'Crimson Text', serif;
+  font-size: 9pt;
+  height: auto;
+  width: 100%;
+  padding: 20px; /* adjusts all sides*/
+  /* margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto; */
+
+}
+footer{
+  background-color: Azure;
+  font-family: 'Crimson Text', serif;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul{
+  margin-left: -20px;
+}
+
+nav ul li{
+  list-style: none;
+  text-align: left;
+  align-self: Start;
+  font-style: italic;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  align-self: Start;
+}
+
+
+nav ul li:hover{
+  text-decoration: line-through;
+  align-self: Start;
+}
+
+#nav2 {
+  color: Yellow;
+}
+
+#grid1{
+width: 960px;
+height: auto;
+/* margin: 20px auto; */
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 3fr;
+grid-column-gap: 10px;
+text-align: left;
+align-items: start
+
+}
+
+#ewc{
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 10px;
+}
+
+#inspiringladies {
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-columns: 2fr 2fr;
+
+}
+
+#passionproj {
+  display: grid;
+  grid-template-areas: "col1 col2";
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 10px;
+
+}
+
+/* nav { justify-self: start }
+
+
+
+grid-template-rows: 380px;
+grid-template-columns: 380px;
+grid-column-gap: 20px; */

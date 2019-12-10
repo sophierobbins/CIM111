@@ -1,0 +1,36 @@
+@import "desktop.css";
+
+header{
+  width: 380px;
+
+}
+
+main{
+  width: 380px;
+}
+
+footer{
+  width: 380px;
+}
+
+nav ul li{
+  display: block;
+  text-align: left;
+
+}
+
+#ewc, #aboutme, #inspiringladies, #macmiller, #passionproj, #unreal{
+
+  width: 380px;
+  display: block;
+  image: 200px;
+
+
+}
+
+#ewc{
+  width: 380px
+  display: block;
+  image: 200px;
+
+}
